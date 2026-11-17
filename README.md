@@ -39,4 +39,4 @@ Run against the same 12 design tasks with and without the skill, the version wit
 
 ## License
 
-Not yet chosen.
+MIT. See [LICENSE](LICENSE).
