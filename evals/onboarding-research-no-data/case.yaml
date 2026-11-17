@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: onboarding-research-no-data
+expected_outcome: |
+  Plans how to find out rather than claiming to know; treats the PM's theory as one hypothesis; starts with funnel analytics; proposes usability sessions; invents no findings.

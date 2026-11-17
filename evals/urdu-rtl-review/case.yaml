@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: urdu-rtl-review
+expected_outcome: |
+  Flags Naskh vs Nastaliq expectation, line-height too tight, mixed-script bidi isolation for merchant names and numbers, digit choice, fixed-height clipping with large text, mirroring rules.

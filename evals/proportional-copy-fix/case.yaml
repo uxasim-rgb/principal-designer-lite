@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: proportional-copy-fix
+expected_outcome: |
+  A short direct rewrite plus a brief reason; no lifecycle artifacts.

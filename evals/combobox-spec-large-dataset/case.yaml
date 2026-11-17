@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: combobox-spec-large-dataset
+expected_outcome: |
+  A full component spec: anatomy, editable combobox pattern, server-side search with debounce, result identity disambiguation, loading/empty/error/timeout states, keyboard model, focus, screen reader announcements, mobile behavior.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: agent-action-authority
+expected_outcome: |
+  Draft vs execute separation, reviewable diff of changes with sources, explicit approval scoped to permissions, progress per item, cancel semantics with what already happened, partial failure, audit trail, undo where possible.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: clicks-up-usability-claim
+expected_outcome: |
+  Explains clicks are not usability; checks denominators, instrumentation and confounds; looks at completed orders and errors; suggests what can honestly be claimed.

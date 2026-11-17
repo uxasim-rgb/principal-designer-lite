@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: spacing-density-review
+expected_outcome: |
+  Keeps the existing 4px system, proposes compact and comfortable densities, handles long localized labels and glove touch targets, and treats 2px optical nudges as documented exceptions rather than defects.

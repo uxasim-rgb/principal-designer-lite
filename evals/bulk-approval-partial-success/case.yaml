@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: bulk-approval-partial-success
+expected_outcome: |
+  Clear selection scope across pages, eligibility preview before confirming, background processing, partial success results with per-item reasons, permission re-check, and accessible announcements.
