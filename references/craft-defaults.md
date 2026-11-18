@@ -24,6 +24,8 @@ The point of this file: the rest of the library is careful about what is *not* u
 4. Real content and real user evidence.
 5. These defaults.
 
+Item 1 is an obligation; 2 and 3 are decisions someone made; 5 is a starting point. If following the design system would cause a verified usability or accessibility failure (a measured contrast failure, a defect seen in testing), do not silently follow it and do not silently override it: build the compliant version, name the conflict and raise it with the system's owners.
+
 ## 2. Typography
 
 | Decision | Default | Notes |
@@ -46,7 +48,7 @@ The point of this file: the rest of the library is careful about what is *not* u
 | Relationship | Default |
 | --- | --- |
 | Icon to label | 8 |
-| Label to field | 6 to 8 |
+| Label to field | 8 (6 is an accepted optical exception for tight forms; record it) |
 | Between fields in a form | 16 to 24 |
 | Inside a card or panel | 16 (compact), 24 (comfortable) |
 | Between related groups | 24 to 32 |
@@ -69,7 +71,7 @@ Rule of thumb: space inside a group must be clearly smaller than space between g
 - **Text on light backgrounds:** primary text near-black (not pure #000, e.g. #111 to #1a1a1a), secondary text a mid gray that still meets 4.5:1.
 - **Backgrounds:** white or a very light neutral; use one subtle tint step to separate surfaces instead of shadows everywhere.
 - **Dark mode:** do not invert. Use dark gray surfaces (around #0f0f10 to #1a1a1c), lighten surfaces as they rise, desaturate the accent slightly, and recheck every contrast pair.
-- **Contrast minimums:** 4.5:1 body text, 3:1 large text (24px, or 18.66px bold) and for UI component boundaries, focus indicators and meaningful icons.
+- **Contrast minimums (WCAG 2 AA):** 4.5:1 for normal text; 3:1 for large text, which is 18pt (24 CSS px) regular or 14pt (about 18.67 CSS px) bold. 3:1 also applies to the visual parts needed to identify a control or its state (an input's border when it is the only sign of the field, a checkbox outline) and to meaningful icons. Purely decorative borders and dividers have no contrast requirement. Compare the unrounded ratio with the threshold.
 - **Never encode meaning by color alone.** Pair with icon, text or pattern.
 - **Gradients:** off by default. Use only when the brand calls for it and it carries meaning. See `anti-slop.md`.
 
@@ -118,9 +120,9 @@ Two state rules that are easy to get wrong:
 
 ## 9. Accessibility floor
 
-Applies to every output unless the user explicitly scopes it out:
+Applies to every output. If the user limits what you review, say the report is limited; the product's obligations stay the same:
 - Contrast as in section 4.
-- Visible focus indicator on every interactive element (2px outline with 2px offset in the accent or a high-contrast color).
+- Visible focus indicator on every interactive element. House default: 2px outline with 2px offset in a color with at least 3:1 against the background. This is stricter than the WCAG 2.2 AA minimum (2.4.7 only requires focus to be visible), which is fine as long as it is labeled a house rule.
 - Real semantic elements (`button`, `a`, `label`, headings in order, landmarks) in any code you write.
 - All functionality available by keyboard; no keyboard traps.
 - Alternatives for drag, hover-only and complex gestures.

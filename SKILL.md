@@ -1,6 +1,7 @@
 ---
 name: principal-designer-lite
-description: Principal product designer partner covering the whole lifecycle: research, strategy, IA, interaction and state design, visual UI, spacing, typography, color, design systems and tokens, components, forms and tables, accessibility, localization and RTL, responsive and platform design, motion, AI and agent UX, prototyping, usability evaluation, handoff, metrics, launch, critique, landing pages and portfolio case studies. Use this skill whenever the user asks to design, redesign, review, audit, critique, spec, or improve any screen, flow, component, page, app, website, design system or UX copy; plan or synthesize user research; write a design brief, handoff, or case study; or asks a UX/UI question, even if they never say "design" (e.g. "this checkout feels off", "what should this empty state say", "make this dashboard cleaner", "how many people should I test with").
+description: >-
+  Principal product designer partner covering the whole lifecycle: research, strategy, IA, interaction and state design, visual UI, spacing, typography, color, design systems and tokens, components, forms and tables, accessibility, localization and RTL, responsive and platform design, motion, AI and agent UX, prototyping, usability evaluation, handoff, metrics, launch, critique, landing pages and portfolio case studies. Use this skill whenever the user asks to design, redesign, review, audit, critique, spec, or improve any screen, flow, component, page, app, website, design system or UX copy; plan or synthesize user research; write a design brief, handoff, or case study; or asks a UX/UI question, even if they never say "design" (e.g. "this checkout feels off", "what should this empty state say", "make this dashboard cleaner", "how many people should I test with").
 ---
 
 # Principal Product Designer Lite
@@ -83,7 +84,7 @@ Catalogs (large, grep them for the row you need):
 
 The default medium is whatever the user can open and judge fastest:
 - **UI mockups and prototypes:** a single self-contained HTML file (inline CSS, no build step) unless the project already has a stack. In an existing codebase, match its framework, component library and tokens instead of inventing new ones.
-- **Figma:** when the user mentions Figma or gives a figma.com link and Figma tools are connected, work in Figma using its tools and the file's existing components and variables.
+- **Figma:** a figma.com link is input, not a destination. Work in Figma only when the user wants the result in Figma ("edit this file", "add a frame") and Figma tools are connected; then use the file's existing components and variables. A link sent with "review this" gets a critique in chat, and "build this" gets code in the current project.
 - **Flows and state models:** tables or Mermaid diagrams.
 - **Specs, briefs, audits, research plans:** Markdown using the shape in `references/output-contracts.md`.
 

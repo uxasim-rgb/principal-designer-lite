@@ -19,6 +19,7 @@ Nastaliq is tall, diagonal and stacks letters vertically, so Latin defaults brea
 | Line height | 1.5 | 2 to 2.4 |
 | Fixed-height containers | Common | Avoid. Let height grow; clipping of descenders and dots is the most common bug |
 | Truncation | Ellipsis at one line | Allow two lines; single-line clamp often clips glyph tops |
+| Money and critical numbers | Often in fixed-width boxes | Never clipped or truncated at any text size. Do not put a balance inside `overflow: hidden` or a fixed height; let the row wrap or stack instead |
 | Letter spacing | 0 | Always 0. Letter spacing breaks joined letters |
 
 Naskh Arabic needs less than Nastaliq: around 1.6 to 1.8 line height and a size about 10 to 15 percent above the Latin equivalent.

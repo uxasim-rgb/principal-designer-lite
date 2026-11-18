@@ -12,8 +12,7 @@ This index supports retrieval and omission checks. Counts describe authored scop
 | Lifecycle workflows | 320 across 40 families | Scope catalog routed through the operational guides |
 | Context profiles | 30 devices; 16 systems; 58 domains | Starter inventories, not complete verified niche handbooks |
 | Small checks | 120 original checks plus foundation additions | Apply when relevant and attach appropriate evidence |
-| Sources | 73 records; 11 video/film resources | Inspection and access status recorded per item |
-| Scripts | One numeric helper | Limited spacing-token audit and opaque sRGB contrast; separate numeric checks from design judgment |
+| Sources | 76 records, including 11 video/film resource pages | Inspection and access status recorded per item |
 
 ### Guides
 
@@ -64,4 +63,4 @@ When a task reveals a missing topic, record the decision it affects, applicable 
 | `platform-updates.md` | Liquid Glass, Material 3 Expressive, WCAG 3, EAA, ADA Title II, DTCG status |
 | `urdu-arabic-typography.md` | Nastaliq and Naskh sizing, numerals, bidi, mirroring |
 
-Worked examples live in `examples/`; test cases with pass/fail criteria live in `evals/`. The numeric helper script mentioned in the original blueprint's validation section was not part of the source file and is not included.
+Worked examples live in `examples/`; test cases with pass/fail criteria live in `evals/`. No scripts ship with this skill. For contrast, compute the WCAG 2 ratio as (L1 + 0.05) / (L2 + 0.05), where L1 and L2 are the relative luminance of the lighter and darker sRGB colors; for example #767676 on #FFFFFF is 4.54:1. Compare the unrounded ratio with the threshold and round only for display.

@@ -26,6 +26,15 @@ Operational guide and topic inventory. Procedures and checks are an original syn
 7. Evaluate representative users and tasks, consequential errors, accessibility, inappropriate reliance, and change across versions.
 8. Maintain user controls for memory, context, data use, and personalization.
 
+### Rules for agents that change records
+
+- **Draft, review, approve, apply, report.** The agent drafts; the person sees each change (old value, new value, who and what it affects) before approving.
+- **An approval covers exactly what was shown.** If the draft changes after approval, it needs a new approval.
+- **Side effects outside the product are separate steps.** Emailing or notifying a supplier, or charging a card, gets its own preview and its own confirmation, and says plainly that it cannot be unsent. Design it; do not scope it out.
+- **The audit trail records the agent as drafter and the person as approver,** in separate fields, with the time of each. A single "actor" field loses who decided.
+- **Cancelling halfway** stops further changes and shows which items were applied, which were not, and how to undo the applied ones.
+- **A timeout is unknown, not failed.** Show "Checking..." and look up the result before allowing a retry, so nothing is applied twice.
+
 ### Outputs
 
 AI-fit brief; expectation/authority model; conversation or generation flow; failure/recovery matrix; evaluation and monitoring plan.

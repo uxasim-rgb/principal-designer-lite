@@ -9,7 +9,7 @@ How to turn design thinking into something the user can open, judge and hand off
 | See a screen or a few screens | Self-contained HTML file with inline CSS |
 | Click through a flow | One HTML file with simple JS view switching, or linked pages |
 | Work inside an existing app | The app's own framework, components and tokens |
-| Design lives in Figma | Figma tools, using the file's components and variables |
+| The user wants the result in Figma | Figma tools, using the file's components and variables. A Figma link sent for review or for building is input only |
 | Explain a flow or states | Mermaid diagram or a state table |
 | Compare directions | 2 or 3 variants side by side in one HTML file, clearly labeled |
 | Low-fidelity structure | Grayscale HTML wireframe: real labels, boxes for media, no color |
@@ -41,16 +41,18 @@ How to turn design thinking into something the user can open, judge and hand off
 
 ## Self-review procedure
 
-When you can render the output (a browser or preview tool, a screenshot):
-1. Look at it at mobile (around 375px) and desktop (around 1280 to 1440px) widths.
+When you can render the output in a browser or preview tool:
+1. Look at it at 320px, 375px and desktop (around 1280 to 1440px) widths, and with text zoomed to 200%. Content must reflow at 320 CSS px without sideways scrolling.
 2. Squint test: is the first thing you notice the most important thing?
 3. Run the anti-slop pass (`anti-slop.md`).
 4. Check contrast of text and key UI against the floor in `craft-defaults.md`.
-5. Tab through it: is focus visible and in a sensible order?
+5. Tab through it in the browser: is focus visible and in a sensible order? This needs a live page; a screenshot cannot show it.
 6. Try long content and an empty state.
 7. Fix what you find before showing it.
 
-When you cannot render it, say so and list what still needs a visual check.
+In the report, say which surface you had (live browser, screenshot only, or none) and list the widths, zoom and keyboard checks you actually ran.
+
+With only a screenshot, report visual observations and list keyboard, focus, reflow and zoom as unchecked. When you cannot render it at all, say so and list what still needs a visual check. A missing preview is never reported as a passed check.
 
 ## Handoff from a mock
 

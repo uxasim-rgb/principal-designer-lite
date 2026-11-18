@@ -1,0 +1,22 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - name: Header and file references
+        run: python scripts/check.py
+      - name: The skills CLI finds exactly one skill
+        run: |
+          out=$(npx --yes skills add . --list 2>&1) || { echo "$out"; exit 1; }
+          echo "$out"
+          echo "$out" | grep -q "principal-designer-lite" || { echo "::error::skills CLI did not list principal-designer-lite"; exit 1; }

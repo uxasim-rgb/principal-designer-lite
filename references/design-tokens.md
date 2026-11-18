@@ -55,7 +55,7 @@ A naming hierarchy is an architectural choice, not a mandatory universal three-t
 }
 ~~~
 
-This illustrates typed dimensions and an alias. Verify the selected exchange format, version, and tooling before claiming full conformance. The bundled helper audits a limited subset, not the full DTCG specification.
+This illustrates typed dimensions and an alias. Verify the selected exchange format, version, and tooling before claiming full conformance. No validation script ships with this skill; use the tooling the project already has.
 
 #### Theme review
 
