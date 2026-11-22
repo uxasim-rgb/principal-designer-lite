@@ -46,3 +46,11 @@ Charts exist to answer a question faster than a table would. Start from the ques
 - No cherry-picked time ranges.
 - Show uncertainty when it matters (intervals, sample sizes).
 - Label projections and estimates as such.
+
+### Operational or analytical: decide first
+
+- **Operational dashboards** are live and glanceable: everything that needs watching is visible at once and refreshes often.
+- **Analytical dashboards** go from overview to detail, refresh on a fixed schedule, and avoid constant movement, which reads as noise.
+- **Numbers people compare never sit on separate tabs.** Tabs are for content nobody compares side by side.
+- **Role-based views** only when roles really need different information.
+- **Labeled sample data** is acceptable on a first-run dashboard when showing beats describing.

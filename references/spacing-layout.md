@@ -100,3 +100,11 @@ For every important layout specify: container width behavior, column count or co
 - S27: [CSS Values and Units Level 4](https://www.w3.org/TR/css-values-4/). Status and selected concepts inspected.
 - S28: [CSS Logical Properties Level 1](https://www.w3.org/TR/css-logical-1/). Status and scope inspected.
 - S29: [CSS Grid Layout Level 2](https://www.w3.org/TR/css-grid-2/). Status and scope inspected.
+
+### Space outside at least the space inside, and size by role
+
+- **The space around a component is at least the space inside it,** or neighbors visually merge into it.
+- **Fixed dimensions for interactive primitives** (buttons, inputs, icon buttons). **Fixed padding with growing height for content containers** (rows, cards, text blocks). Never give a content container a fixed height.
+- **Grid by content:** a column grid by default, a modular grid for uniform cards and catalogs, a manuscript grid for long reading, a hierarchical grid for editorial pages.
+- **Cards or a list:** cards for browsing many different items; a list or table for ranked results, comparison or finding a known item.
+- **Depth:** one elevation level per surface and one light direction per screen. If a card has a shadow, its buttons and icons do not.

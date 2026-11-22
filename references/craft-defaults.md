@@ -105,7 +105,7 @@ Two state rules that are easy to get wrong:
 
 ## 7. Interaction timing and motion
 
-- Response under 100ms feels instant; show progress if work exceeds about 1 second; give determinate progress or a cancel if it exceeds about 10 seconds.
+- Waiting: show nothing beyond the pressed state for the first 300ms; an indicator on the pressed control up to 1 second; a skeleton or progress indicator up to 10 seconds; past 10 seconds, determinate progress and a way to cancel or leave.
 - Motion durations: 100 to 150ms for small state changes (hover, toggle), 200 to 300ms for panels and dialogs, up to 400ms for large page transitions. Ease-out for entering, ease-in for leaving.
 - Motion explains change; it is not decoration. Respect `prefers-reduced-motion` with a fade or no animation.
 - Do not delay the user with animation they must wait through to continue.

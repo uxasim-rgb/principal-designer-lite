@@ -52,3 +52,12 @@ Phone, tablet, and desktop labels alone do not determine a layout. Screen size i
 - S49: [Apple WWDC23: Principles of spatial design](https://developer.apple.com/videos/play/wwdc2023/10072/). Official summary inspected; playback not reviewed.
 - S50: [Apple WWDC23: Spatial user interfaces](https://developer.apple.com/videos/play/wwdc2023/10076/). Official summary inspected; playback not reviewed.
 - S51: [Apple WWDC23: Spatial input](https://developer.apple.com/videos/play/wwdc2023/10073/). Transcript excerpt inspected; playback not reviewed.
+
+### Design for the thumb
+
+- **Primary actions in the lower middle,** or in a bottom sheet. Destructive actions out of the easy reach zone, or guarded. Add bottom padding so content can scroll up into the comfortable middle.
+- **Corners are harder to hit,** so targets there should be larger than the minimum. Keep about 8dp between adjacent targets (Material 3) and separate opposite actions such as Save and Delete.
+- **Gestures are shortcuts to a visible control,** never the only way. Use conventional single-finger gestures (WCAG 2.5.1).
+- **One floating action button at most,** for the screen's main create action only, never destructive, never covering content.
+- **Icons:** start from SF Symbols or Material Symbols and match custom icons to their weight and grid. On Apple platforms use monochrome rendering for controls and save hierarchical, palette or multicolor for icons that carry meaning.
+- **If the product really is desktop-only,** say so and skip mobile findings rather than inventing them.

@@ -44,3 +44,30 @@ A sitemap alone does not specify IA. A successful card sort does not prove the f
 - S22: [WAI Forms Tutorial](https://www.w3.org/WAI/tutorials/forms/). Body excerpts inspected.
 - S25: [W3C: Structural RTL markup](https://www.w3.org/International/questions/qa-html-dir.en.html). Body excerpts inspected.
 - S53: [Apple WWDC22: Writing for interfaces](https://developer.apple.com/videos/play/wwdc2022/10037/). Transcript excerpt inspected; playback not reviewed.
+
+### Choose the scheme and structure before the labels
+
+- **Exact schemes** (A to Z, by date, by place) work only when people already know the item's name. **Browsing needs topic, task or audience schemes.** Mixing schemes is fine on a home page and confusing deeper down.
+- **Structure follows the content:** a hierarchy for top-down browsing; a database with facets for large sets of similar items; a sequence for step-by-step processes; flat for small sites. Cross-links supplement a structure, never replace it.
+- **Check the label system as a set:** one syntax (do not mix verbs, nouns and questions); one level of granularity ("Electronics" does not sit beside "Smartphones"); complete sets (a "Men" and "Kids" with no "Women" makes people distrust the rest); no empty labels such as "Explore", "Discover" or "More".
+- **Sweep every way people seek:** a known item, exploring, browsing, finding something again (recently viewed, history), and not knowing what they need, which calls for plain labels ("Tax forms", not "Resources").
+- **Audit from the side door.** Arrive on a deep page from a search result: the page must say where you are, reach the main areas, and offer siblings or the parent.
+- **Growth test:** where would the next 50 items go? A structure that already strains fails.
+- **Cheap evidence for labels:** search log analysis and free listing, before or alongside card sorts.
+
+### Match tone to the moment, not only the brand
+
+| Moment | Tone | Rule |
+| --- | --- | --- |
+| Payment, security, data loss | Confident and plain | No hedging ("maybe", "try to") |
+| Light errors, empty inboxes | Playful is allowed | Only when nothing is at stake, never at the cost of clarity |
+| Effort or achievement | Encouraging | Do not cheer routine actions |
+| Permission and data requests | Direct, active | Say what is collected and why |
+| Regulated or professional | Formal | Still plain words |
+| Dense UI and mobile labels | Terse | Keep the context that is needed |
+
+A joke on a payment error is a finding. Lead an error with the action that fixes it rather than the failure.
+
+**Links:** say when a link opens a new tab, give file links their type and size ("Annual report (PDF, 2.5 MB)"), and never use a raw address as link text. These are good practice, not WCAG failures.
+
+**Copy review procedure:** inventory every string first, including the hidden ones (errors, empty states, tooltips, confirmations, notifications); check consistency across the whole flow, not screen by screen; report each finding as current text and rewrite, with a list of inconsistent terms and the top three rewrites.

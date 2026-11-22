@@ -44,3 +44,22 @@ Frameworks such as Double Diamond, Lean UX, design thinking, Jobs to Be Done, op
 - S38: [Ben Shneiderman: Eight Golden Rules](https://www.cs.umd.edu/users/ben/goldenrules.html). Body excerpts inspected.
 - S46: [GOV.UK: Live phase](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works). Body excerpts inspected.
 - S62: [ISO 9241-210:2019](https://www.iso.org/standard/77520.html). Public abstract inspected; full standard not accessed.
+
+### Reject problems in disguise, and test the riskiest assumption
+
+- **Four disguises to reject by name:** a solution ("users need better search"), a vague complaint ("the UX is bad"), a business goal ("grow revenue") and a symptom ("churn is up"). Translate each down to the user problem underneath.
+- **Speaker test:** could the person who has the problem plausibly say this sentence? If only the company would say it, keep digging.
+- **Clarity test:** design, engineering and leadership can each say who is affected, why it matters and what is wrong without asking the author.
+- **Name the metric that shows the gap and its current value** in the statement; the target is set later in `metrics-experimentation.md`, once the baseline is known.
+- **Five assumption types:** value, usability, feasibility, viability and ethics (could this cause harm, and to whom?).
+- **Write the riskiest one as a hypothesis:** we believe [change] for [people] will result in [outcome]; we will know when [metric] moves by [amount]. Set pass and fail before the test.
+- **Match the test to the stage:** interviews and paper prototypes for the problem; clickable prototypes, a painted door (a button or page that measures interest before the feature exists), a concierge or Wizard of Oz test for the solution; a beta or A/B test for viability. A painted door shows interest only, never satisfaction. A test scheduled after the build is a formality, not a test.
+- **A disproven assumption must change a decision,** and the change is written down.
+
+### Catch false precision
+
+- **Output more precise than input is a finding:** "RICE 847.5" from guessed reach and effort, or scores filled in after the decision to justify it.
+- **MoSCoW for fixed-deadline scope:** keep Musts at or under about 60% of capacity, and an empty Won't list is a finding. It ignores effort, so pair it with an estimate.
+- **Kano needs survey data.** Delighter labels assigned in a meeting are opinions; prioritizing delighters while basics are broken is a finding.
+- **Name which of time, scope and quality flexes** before work starts. Fixing all three is a plan to fail. Prefer a fixed time box with scope cut when it overruns.
+- **"Done" includes enablement:** analytics firing, support and sales briefed, release notes written.

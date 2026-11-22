@@ -65,3 +65,19 @@ Record product/version, task, component/state, platform/browser, assistive techn
 - S31: [Android: Make apps accessible](https://developer.android.com/guide/topics/ui/accessibility/apps). Body excerpts inspected.
 - S54: [W3C: Video captions](https://www.w3.org/WAI/perspective-videos/captions/). Explanation inspected; playback not reviewed.
 - S55: [W3C: Accessibility standards and benefits](https://www.w3.org/WAI/videos/standards-and-benefits/). Transcript and explanatory excerpts inspected; playback not reviewed.
+
+### Pointer, orientation and hover
+
+| Criterion | Requirement |
+| --- | --- |
+| 1.3.4 Orientation (AA) | Do not lock the screen to portrait or landscape unless the orientation is essential |
+| 1.4.13 Content on hover or focus (AA) | Tooltips and hover panels can be dismissed (Escape) without moving the pointer or focus, stay open while the pointer moves onto them, and stay until dismissed or no longer relevant |
+| 2.5.1 Pointer gestures (A) | Every path-based or multi-finger gesture has a single-pointer alternative |
+| 2.5.2 Pointer cancellation (A) | Actions fire on release, not on press, and can be aborted by moving off the target |
+| 2.5.7 Dragging movements (AA, new in 2.2) | Every drag (sliders, sortable lists, boards) has a single-pointer alternative that needs no dragging |
+| 2.5.8 Target size minimum (AA, new in 2.2) | 24 by 24 CSS px, or spacing so a 24px circle on each target touches no other. Platform targets (44pt Apple, 48dp Material) are larger guidance, not WCAG |
+| 3.2.6 Consistent help (A, new in 2.2) | Help mechanisms appear in the same relative order on every page that has them |
+| 3.3.7 Redundant entry (A, new in 2.2) | Do not ask again for information already given in the same process |
+| 3.3.8 Accessible authentication (AA, new in 2.2) | No cognitive test as the only way to log in; allow paste and password managers |
+
+Not WCAG requirements, and not to be reported as failures: a 16px minimum body size (a house default; WCAG sets no size), pure black text on white (a craft choice), and a three-typeface limit.

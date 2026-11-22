@@ -46,3 +46,13 @@ Nielsen's 10 heuristics and Shneiderman's 8 rules (see `laws-principles.md`) are
 ## Output
 
 Summary (2 or 3 lines: overall state and the top issues), then findings ordered by severity, then "Needs runtime or user check", then optionally a revised mock showing the top fixes.
+
+### Resolve heuristic tension in favor of the main task
+
+Do not flag clutter and also recommend more help text or more options in the same report. When two heuristics pull against each other, settle it in favor of the primary task and say so. Weight flexibility and efficiency heavily for professional tools and lightly for one-time consumer flows.
+
+### Check for overdesign, and respect the system
+
+- **Overdesign pass.** After the domain checks, count competing focal points, accent colors, stacked shadows and type treatments. Give a verdict (clean, borderline or overdesigned) and name the one to three techniques that are overused. `anti-slop.md` lists the common ones.
+- **When a design system is in play,** do not re-audit its palette, type scale or spacing scale. Review how it is applied: custom color pairs, focus order, labels, alt text. Accessibility narrows to the application of the system but is never dropped. Say what was skipped and why.
+- **Open the report with the lenses run,** and the ones that were available but not run.

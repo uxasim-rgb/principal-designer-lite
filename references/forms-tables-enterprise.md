@@ -46,3 +46,11 @@ A visually tabular display does not automatically need an ARIA grid. Avoid dupli
 - S22: [WAI Forms Tutorial](https://www.w3.org/WAI/tutorials/forms/). Body excerpts inspected.
 - S25: [W3C: Structural RTL markup](https://www.w3.org/International/questions/qa-html-dir.en.html). Body excerpts inspected.
 - S31: [Android: Make apps accessible](https://developer.android.com/guide/topics/ui/accessibility/apps). Body excerpts inspected.
+
+### Say the required convention once, and keep errors in the flow
+
+- **State the convention at the top** ("All fields are required unless marked optional"); WCAG 3.3.2 needs required status communicated, and an unexplained asterisk is ambiguous.
+- **Errors sit above or below the field,** never to its side: side errors break at 400% zoom and on narrow screens (WCAG 1.4.10).
+- **Inputs 16px or larger on mobile** so iOS does not zoom on focus. Show and hide on password fields; accept pasted and autofilled one-time codes as a whole.
+- **Default facts** (a detected country), **never decisions** (consent, marketing opt-ins).
+- **After submit,** show loading, success and failure states.

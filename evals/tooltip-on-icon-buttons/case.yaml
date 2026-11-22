@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: tooltip-on-icon-buttons
+expected_outcome: |
+  A tooltip spec that meets WCAG 1.4.13 and does not rely on hover alone.

@@ -52,3 +52,14 @@ Build only the sections these questions need. A small product might need hero, p
 ## Measuring
 
 Define the conversion event before launch, instrument it, and compare against a baseline. A higher click rate on a button is not proof the page is better; check downstream completion (see `metrics-experimentation.md`).
+
+### Pricing pages
+
+- **2 to 4 plans,** starting from 3. Emphasize exactly one; badging none or several gives no signal.
+- **Lead each card with what separates it from the plan below** (1, 3 or unlimited projects) and link to a full comparison table instead of thirty check marks per card.
+- **Name plans for who they are for** (Solo, Team, Agency), not Basic and Standard. One button per card that names the plan ("Choose Team"); repeat it at the end of long pages.
+- **A billing toggle only if both periods exist,** with the annual saving stated as an amount or "2 months free".
+- **Answer the money questions beside the table:** billing cycle, cancelling, refunds, trial terms. Put "No card required" or a guarantee next to the button, not in fine print.
+- **Seat sliders or usage estimators** only when price really scales with them. "Talk to sales" only for large or complex deals. Local currency where the audience is global.
+- **Order low to high by default.** Showing the highest plan first is anchoring, not deception, and can be tested. A crossed-out "was" price that was never charged is deception (`deceptive-design.md`).
+- **Message match on campaign pages:** the headline repeats the promise of the ad or link that brought the visitor. A floating chat widget is a desktop treatment; on mobile it covers buttons.

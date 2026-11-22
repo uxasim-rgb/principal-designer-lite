@@ -47,3 +47,10 @@ Do not treat five interviews as a universal sample size, qualitative theme frequ
 - S10: [NN/G: Choosing research methods](https://www.nngroup.com/articles/which-ux-research-methods/). Body excerpts inspected.
 - S11: [NN/G: Quantitative methods](https://www.nngroup.com/articles/quantitative-user-research-methods/). Body excerpts inspected.
 - S09: [NASA: Task Load Index](https://www.nasa.gov/human-systems-integration-division/nasa-task-load-index-tlx/). Official resource page inspected.
+
+### Placeholder personas and AI personas
+
+- **A proto-persona is allowed** when no research exists, labeled as an assumption on its face, with a list of what research would replace it. It is never presented as validated.
+- **AI may cluster and draft from research the team collected.** It may not invent a persona from a prompt: the result repeats stereotypes and drops the edge cases that matter.
+- **One primary persona per product area.** Decisions default to it; secondary personas are accommodated and never override it.
+- **Scenario check:** write one short scenario per persona chasing a real goal. If the team finds it false, the persona is not credible yet.

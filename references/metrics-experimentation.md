@@ -44,3 +44,15 @@ HEART is a useful framework rather than a mandatory KPI list. Retention is not i
 - S43: [Google: Web Vitals](https://web.dev/articles/vitals). Body excerpts inspected.
 - S44: [Microsoft: Online experimentation](https://www.microsoft.com/en-us/research/publication/online-experimentation-at-microsoft/). Publication abstract inspected.
 - S45: [Google Research: HEART](https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/). Publication abstract inspected.
+
+### Protect the test and the learning
+
+- **An unequal split** (90/10) limits exposure to a risky variant but needs a larger total sample and a longer run for the same power. Never change the split mid-test.
+- **Assignment is fixed per person.** Check both arms on real devices and confirm tracking fires before reading any result.
+- **A long-term holdout** (a small group kept on the old experience) shows whether a short-term lift lasts.
+- **Multivariate tests** need traffic multiplied by the number of combinations; use them only on high-traffic surfaces.
+- **The confidence level is chosen before launch.** 95% is the default; a lower level for a low-risk change is acceptable only when chosen in advance with the cost of a false positive stated.
+- **Keep a searchable record of every test,** failures included, so nobody runs the same test twice.
+- **Analysis biases to name:** survivorship (study who left, not only who stayed) and selective reporting (choose metrics before looking, and record every analysis run, not only the flattering ones).
+- **Cohorts answer different questions:** by behavior to find the activation moment, by time to isolate a release or season, by acquisition source to compare channel quality. Match retention windows to the natural rhythm of use.
+- **Attribution models are not causal.** When credit drives spend, use a holdout or incrementality test.

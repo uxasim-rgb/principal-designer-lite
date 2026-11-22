@@ -60,6 +60,9 @@ All paths below are relative to this skill's folder.
 | Prototyping and usability evaluation | `references/prototyping-evaluation.md` |
 | Handoff, design QA, performance | `references/implementation-qa.md` |
 | Metrics, analytics, A/B tests | `references/metrics-experimentation.md` |
+| PRDs, specs, user stories, vision, strategy, roadmaps, OKRs, competitive analysis, go-to-market, decision records | `references/product-management.md` |
+| A specific component: buttons, cards, menus, modals, navigation, toasts, progress trackers, search and filters, selection controls, tables, tooltips | `references/component-guides.md` |
+| A specific screen or flow: sign up, password reset, settings, onboarding, checkout, booking, account deletion, activity feed, support, 404 | `references/screen-recipes.md` |
 | Launch, live ops, migration, retirement | `references/launch-live-retirement.md` |
 | AI features, chat, agents, human oversight | `references/ai-agents.md` |
 | Domain rules, privacy, security UX, ethics | `references/domain-privacy-ethics.md` |

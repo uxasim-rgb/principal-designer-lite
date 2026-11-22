@@ -62,5 +62,8 @@ When a task reveals a missing topic, record the decision it affects, applicable 
 | `data-visualization.md` | Chart choice, dashboards, chart accessibility |
 | `platform-updates.md` | Liquid Glass, Material 3 Expressive, WCAG 3, EAA, ADA Title II, DTCG status |
 | `urdu-arabic-typography.md` | Nastaliq and Naskh sizing, numerals, bidi, mirroring |
+| `product-management.md` | PRDs and specs, user stories, vision and strategy, roadmaps, OKRs, competitive analysis, go-to-market, decision quality |
+| `component-guides.md` | Per-component rules for buttons, cards, menus, modals, navigation, toasts, progress trackers, search, selection controls, tables, tooltips |
+| `screen-recipes.md` | Sign up and log in, password reset, settings, onboarding, checkout, booking, account deletion, activity feeds, support, 404 |
 
 Worked examples live in `examples/`; test cases with pass/fail criteria live in `evals/`. No scripts ship with this skill. For contrast, compute the WCAG 2 ratio as (L1 + 0.05) / (L2 + 0.05), where L1 and L2 are the relative luminance of the lighter and darker sRGB colors; for example #767676 on #FFFFFF is 4.54:1. Compare the unrounded ratio with the threshold and round only for display.

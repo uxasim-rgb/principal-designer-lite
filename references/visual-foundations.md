@@ -46,3 +46,13 @@ Avoid universal body-size, line-height, line-length, corner-radius, and contrast
 - S33: [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines). Markdown overview inspected.
 - S37: [NN/G: Aesthetic-usability effect](https://www.nngroup.com/articles/aesthetic-usability-effect/). Body excerpts inspected.
 - S52: [Apple WWDC19: Accessible reading](https://developer.apple.com/videos/play/wwdc2019/248/). Transcript excerpt inspected; playback not reviewed.
+
+### Use at most three levers per level
+
+Hierarchy comes from size, weight, color, case and style. Use no more than three of them to separate one level from the next, and never stack all of them on one heading. Use one emphasis method at a time, italic or bold, not both.
+
+### One meaning per icon, and fill means state
+
+- **Outlined is the default; filled means selected or on** (favorite, bookmark, visible). Keep the outer shape identical across the pair, and never switch fill for decoration.
+- **One concept, one glyph,** everywhere in the product. Watch for meanings other products have taught: a heart can mean like, love or save, a star can mean favorite or rating. Pick one meaning and write it down.
+- **Library hygiene:** name icons `category/object/modifier`, add search tags, ship flattened single-layer components so swaps work, and color them through tokens.
